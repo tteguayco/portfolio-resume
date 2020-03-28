@@ -10,6 +10,8 @@ h4 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: Roboto Mono, monospace;
+    color: grey;
+    font-size: 20px;
 }
 
 p {
