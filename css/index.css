@@ -202,6 +202,7 @@ i.fab {
   background-color: #ddd;
   height: 10px;
   border-radius: 40%;
+  margin-bottom: 20px;
 }
 
 .skills {
@@ -213,20 +214,26 @@ i.fab {
   border-top-right-radius: 40%;
 }
 
-.html {
+.skill-90 {
     width: 90%;
     background-color: #003791;
 }
 
-.css {
+.skill-80 {
     width: 80%;
     background-color: #003791;
 }
-.js {
+
+.skill-75 {
+    width: 75%;
+    background-color: #003791;
+}
+
+.skill-65 {
     width: 65%;
     background-color: #003791;
 }
-.php {
+.skill-60 {
     width: 60%;
     background-color: #003791;
 }
@@ -236,5 +243,13 @@ i.fab {
 }
 
 .subtitle-mini {
-    font-family: Inconsolata,monospace;
+    font-family: Inconsolata, monospace;
+}
+
+.skill-row {
+    margin-right: 30px;
+}
+
+.skills-col {
+    margin-left: 30px;
 }
