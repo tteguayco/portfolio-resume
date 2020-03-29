@@ -6,12 +6,15 @@ body {
 h1 {
     color: white;
     font-family: Roboto Mono, monospace;
+    white-space: nowrap;
+    font-size: 32px;
 }
 
 h2 {
     color: white;
     font-family: Roboto Mono, monospace;
     font-size: 20px;
+    white-space: nowrap;
 }
 
 h3 {
@@ -46,6 +49,7 @@ p {
 
 table {
     font-family: Roboto Mono, monospace;
+    white-space: nowrap;
 }
 
 .personal-info-name {
@@ -54,6 +58,7 @@ table {
     margin-bottom: 10px !important;
     width: 30%;
     padding-right: 5px;
+    font-weight: bold;
 }
 
 .personal-info-val {
@@ -151,4 +156,31 @@ table {
 
 .personal-info-details-container {
     margin-top: 20px;
+}
+
+.personal-info-buttons-row {
+    margin-top: 25px;
+}
+
+.custom-btn {
+    border-color: white !important;
+    border-radius: 0;
+    color: white;
+}
+
+#download-btn {
+    width: 100px;
+    margin-right: 20px;
+}
+
+#download-btn:hover::before {
+  content: "" !important;
+}
+
+#download-btn:hover::after {
+  content: "PDF" !important;
+}
+
+i.fab {
+    margin-right: 5px;
 }
