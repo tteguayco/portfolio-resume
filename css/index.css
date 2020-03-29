@@ -28,6 +28,7 @@ h4 {
     color: grey;
     font-size: 16px;
     letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
 h5 {
@@ -41,6 +42,25 @@ h5 {
 
 p {
     margin-bottom: 1px !important;
+}
+
+table {
+    font-family: Roboto Mono, monospace;
+}
+
+tr {
+    color: #c0c0c0c7;
+    text-transform: uppercase;
+    margin-bottom: 10px !important;
+    width: 30%;
+    padding-right: 5px;
+}
+
+.personal-info-val {
+    color: white;
+    margin-bottom: 10px !important;
+    width: 100%;
+    padding-left: 30px;
 }
 
 .section-row {
@@ -103,6 +123,13 @@ p {
     height: 400px;
     width: 100%;
     margin-bottom: 80px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.personal-info-section-row {
+    margin-top: 50px;
+    width: 100%;
 }
 
 .photo-col {
@@ -111,4 +138,17 @@ p {
 
 .personal-img {
     border-radius: 3%;
+}
+
+.personal-info-details-name-col {
+    padding-left: 0 !important;
+}
+
+.personal-info-col {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.personal-info-details-container {
+    margin-top: 20px;
 }
