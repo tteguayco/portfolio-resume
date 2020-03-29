@@ -253,3 +253,20 @@ i.fab {
 .skills-col {
     margin-left: 30px;
 }
+
+.language-mark-filled {
+    color: #003791;
+}
+
+.language-mark-empty {
+    color: grey;
+}
+
+.language-name {
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.language-mark {
+    padding-bottom: 10px;
+}
