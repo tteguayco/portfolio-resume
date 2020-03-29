@@ -1,4 +1,8 @@
 
+body {
+    background-color: #fbfbfe;
+}
+
 h3 {
     font-size: 40px;
     margin-top: 30px;
@@ -11,29 +15,74 @@ h4 {
     margin-bottom: 20px;
     font-family: Roboto Mono, monospace;
     color: grey;
-    font-size: 20px;
+    font-size: 16px;
+    letter-spacing: 5px;
 }
 
 h5 {
+    font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     font-family: Roboto Mono, monospace;
     color: #003791;
+    margin-bottom: 1px !important;
 }
 
 p {
-    margin-bottom: 5px !important;
+    margin-bottom: 1px !important;
+}
+
+.section-row {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.separator-row {
+    height: 30px;
 }
 
 .temp-info-content {
-    margin-bottom: 20px;
+    /* margin-bottom: 30px; */
 }
 
-.job-date {
+.temp-info-main {
+    margin-bottom: 10px;
+}
+
+.temp-info-subtitle {
     font-size: 14px;
+}
+
+.temp-info-date {
+    font-size: 14px;
+    color: grey;
     font-family: Roboto Mono, monospace;
 }
 
-.job-description {
+.temp-info-description {
     font-size: 18px;
+}
+
+.timeline-step {
+    padding: 0 !important;
+    width: 5px;
+}
+
+.timeline-circle {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #003791;
+    margin-left: 15px;
+    background-color: #fbfbfe;
+}
+
+.timeline-vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: 20px;
+    border-left: 2px solid #003791 !important;
 }
