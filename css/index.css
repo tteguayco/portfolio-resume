@@ -136,6 +136,8 @@ table {
 
 .photo-col {
     margin-top: 50px;
+    width: 80%;
+    text-align: right;
 }
 
 .personal-img {
