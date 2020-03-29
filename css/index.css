@@ -48,7 +48,7 @@ table {
     font-family: Roboto Mono, monospace;
 }
 
-tr {
+.personal-info-name {
     color: #c0c0c0c7;
     text-transform: uppercase;
     margin-bottom: 10px !important;
@@ -60,7 +60,7 @@ tr {
     color: white;
     margin-bottom: 10px !important;
     width: 100%;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .section-row {
