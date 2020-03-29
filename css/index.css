@@ -6,7 +6,6 @@ body {
 h1 {
     color: white;
     font-family: Roboto Mono, monospace;
-    white-space: nowrap;
     font-size: 32px;
 }
 
@@ -14,7 +13,6 @@ h2 {
     color: white;
     font-family: Roboto Mono, monospace;
     font-size: 20px;
-    white-space: nowrap;
 }
 
 h3 {
@@ -49,7 +47,6 @@ p {
 
 table {
     font-family: Roboto Mono, monospace;
-    white-space: nowrap;
 }
 
 .personal-info-name {
@@ -125,11 +122,11 @@ table {
 
 .personal-info-section {
     background-color: #041433;
-    height: 400px;
     width: 100%;
     margin-bottom: 80px;
     margin-left: 0 !important;
     margin-right: 0 !important;
+    padding-bottom: 30px;
 }
 
 .personal-info-section-row {
@@ -171,6 +168,7 @@ table {
 #download-btn {
     width: 100px;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 #download-btn:hover::before {
@@ -183,4 +181,10 @@ table {
 
 i.fab {
     margin-right: 5px;
+}
+
+.social-networks {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
