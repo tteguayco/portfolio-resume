@@ -3,6 +3,17 @@ body {
     background-color: #fbfbfe;
 }
 
+h1 {
+    color: white;
+    font-family: Roboto Mono, monospace;
+}
+
+h2 {
+    color: white;
+    font-family: Roboto Mono, monospace;
+    font-size: 20px;
+}
+
 h3 {
     font-size: 40px;
     margin-top: 30px;
@@ -85,4 +96,19 @@ p {
     bottom: 0;
     margin-left: 20px;
     border-left: 2px solid #003791 !important;
+}
+
+.personal-info-section {
+    background-color: #041433;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.photo-col {
+    margin-top: 50px;
+}
+
+.personal-img {
+    border-radius: 3%;
 }
