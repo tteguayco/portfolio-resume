@@ -130,14 +130,19 @@ table {
 }
 
 .personal-info-section-row {
-    margin-top: 50px;
     width: 100%;
 }
 
 .photo-col {
     margin-top: 50px;
-    width: 80%;
+    width: 50%;
     text-align: right;
+}
+
+.photo-col > img {
+    width: 100%;
+    max-width: 250px;
+    max-height: 280px;
 }
 
 .personal-img {
@@ -182,7 +187,7 @@ table {
 }
 
 i.fab {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .social-networks {
