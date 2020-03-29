@@ -121,7 +121,7 @@ table {
 }
 
 .personal-info-section {
-    background-color: #041433;
+    background-image: linear-gradient(to right, #041433, grey);
     width: 100%;
     margin-bottom: 80px;
     margin-left: 0 !important;
