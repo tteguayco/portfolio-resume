@@ -76,7 +76,8 @@ table {
 }
 
 .temp-info-content {
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
+    border-left: 2px solid #003791;
 }
 
 .temp-info-main {
@@ -94,7 +95,7 @@ table {
 }
 
 .text-description {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .timeline-step {
@@ -111,6 +112,7 @@ table {
     border: 2px solid #003791;
     margin-left: 15px;
     background-color: #fbfbfe;
+    left: -22px;
 }
 
 .timeline-vertical-line {
