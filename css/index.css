@@ -280,6 +280,7 @@ i.fab {
 .contact-container {
     background-image: linear-gradient(to right, #041433, grey);
     width: 100%;
+    padding-bottom: 40px;
 }
 
 .contact-field-container {
@@ -336,7 +337,7 @@ textarea:focus {
 }
 
 .page-footer {
-    padding-top: 40px;
     background-image: linear-gradient(to right, #041433, grey);
     color: white;
+    font-family: Inconsolata, monospace;
 }
