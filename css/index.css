@@ -342,3 +342,9 @@ textarea:focus {
     color: white;
     font-family: Inconsolata, monospace;
 }
+
+.contact-form-disclaimer {
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+}
