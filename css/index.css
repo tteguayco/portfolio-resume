@@ -207,7 +207,6 @@ i.fab {
   width: 100%;
   background-color: #ddd;
   height: 10px;
-  border-radius: 40%;
   margin-bottom: 20px;
 }
 
@@ -216,8 +215,6 @@ i.fab {
   padding-top: 10px;
   color: white;
   height: 10px;
-  border-top-left-radius: 40%;
-  border-top-right-radius: 40%;
 }
 
 .skill-90 {
