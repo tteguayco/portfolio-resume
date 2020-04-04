@@ -272,3 +272,45 @@ i.fab {
 .language-mark {
     padding-bottom: 10px;
 }
+
+.contact-container {
+    background-image: linear-gradient(to right, #041433, grey);
+    width: 100%;
+}
+
+.contact-field-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    background: transparent;
+    color: white;
+}
+
+input[type="text"]:focus {
+    background: transparent;
+    color: white;
+    box-shadow: 0 0 15px grey;
+    border-color: white;
+}
+
+textarea {
+    background: transparent;
+    border-radius: 2%;
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+textarea:focus {
+    background: transparent;
+    padding: 10px;
+    border-radius: 2%;
+    width: 100%;
+    box-shadow: 0 0 15px grey;
+    border-color: white;
+}
+
+#personal-info-contact tr {
+    border-spacing: 0 1em;
+}
