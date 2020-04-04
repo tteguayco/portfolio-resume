@@ -120,7 +120,7 @@ p > span.text-description {
     border: 2px solid #003791;
     margin-left: 15px;
     background-color: #fbfbfe;
-    left: -23px;
+    left: -24px;
 }
 
 .personal-info-section {
@@ -185,8 +185,12 @@ p > span.text-description {
   content: "" !important;
 }
 
+#download-btn:hover {
+    box-shadow: 0 0 10px grey;
+}
+
 #download-btn:hover::after {
-  content: "PDF" !important;
+  //content: "PDF" !important;
 }
 
 i.fab {
@@ -307,8 +311,9 @@ textarea:focus {
     padding: 10px;
     border-radius: 2%;
     width: 100%;
-    box-shadow: 0 0 15px grey;
+    box-shadow: 0 0 10px grey;
     border-color: white;
+    outline-width: 0;
 }
 
 #personal-info-contact {
@@ -317,4 +322,21 @@ textarea:focus {
 
 #personal-info-contact td {
     padding-top: 10px;
+}
+
+#send-message-btn {
+    width: 100%;
+    border-radius: 2%;
+}
+
+#send-message-btn:hover {
+    width: 100%;
+    border-radius: 3%;
+    box-shadow: 0 0 15px grey;
+}
+
+.page-footer {
+    padding-top: 40px;
+    background-image: linear-gradient(to right, #041433, grey);
+    color: white;
 }
