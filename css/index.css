@@ -311,6 +311,6 @@ textarea:focus {
     border-color: white;
 }
 
-#personal-info-contact tr {
-    border-spacing: 0 1em;
+#personal-info-contact td {
+    padding-bottom: 10px;
 }
