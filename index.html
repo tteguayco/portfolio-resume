@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/gif" href="./img/favicon.ico"/>
         <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./vendor/sweetalert/css/sweetalert2.min.css">
         <link rel="stylesheet" href="./css/progress-bar.css">
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./css/gotopbutton.css">
@@ -380,43 +381,45 @@
                         <a href="" target="_blank" data-toggle="tooltip" title="Stack Overflow"><i class="fab fa-stack-overflow fa-lg" style="color: white;"></i></a>
                     </div>
                 </div>
-                <div class="col-8 col-sm-8 col-md-8 col-lg-4 col-xl-4 offset-2">
-                    <div class="contact-field-container">
-                        <h2>NAME*</h2>
-                        <div class="form-label-group">
-                            <input type="text" name="name" id="inputname" class="form-control" required="required">
+                <div class="col-8 col-sm-8 col-md-8 col-lg-4 col-xl-3 offset-2">
+                    <form id="contact-form">
+                        <div class="contact-field-container">
+                            <h2>NAME*</h2>
+                            <div class="form-label-group">
+                                <input type="text" name="name" id="inputname" class="form-control" required="required">
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-field-container">
-                        <h2>EMAIL*</h2>
-                        <div class="form-label-group">
-                            <input type="text" name="email" id="inputemail" class="form-control" required="required">
+                        <div class="contact-field-container">
+                            <h2>EMAIL*</h2>
+                            <div class="form-label-group">
+                                <input type="email" name="email" id="inputemail" class="form-control" required="required">
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-field-container">
-                        <h2>PHONE</h2>
-                        <div class="form-label-group">
-                            <input type="text" name="phone" id="inputphone" class="form-control" required="">
+                        <div class="contact-field-container">
+                            <h2>PHONE</h2>
+                            <div class="form-label-group">
+                                <input type="text" name="phone" id="inputphone" class="form-control">
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-field-container">
-                        <h2>SUBJECT</h2>
-                        <div class="form-label-group">
-                            <input type="text" name="subject" id="inputsubject" class="form-control" required="">
+                        <div class="contact-field-container">
+                            <h2>SUBJECT</h2>
+                            <div class="form-label-group">
+                                <input type="text" name="subject" id="inputsubject" class="form-control" required="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-field-container">
-                        <h2>MESSAGE*</h2>
-                        <div class="form-item webform-component webform-component-textarea webform-component--message">
-                            <textarea required="required" class="sm-form-control required form-textarea required" id="edit-submitted-message" name="submitted[message]" rows="8"></textarea>
+                        <div class="contact-field-container">
+                            <h2>MESSAGE*</h2>
+                            <div class="form-item webform-component webform-component-textarea webform-component--message">
+                                <textarea required="required" class="sm-form-control required form-textarea required" id="submitted-message" name="submitted[message]" rows="8"></textarea>
+                            </div>
                         </div>
-                    </div>
-                    <button type="button" id="send-message-btn" class="btn btn-outline-secondary custom-btn">
-                        <b>SEND</b>
-                    </button>
-                    <div class="contact-form-disclaimer">
-                        <i>* Information entered on this page will not be used to send unsolicited emails nor will be sold to third-parties.</i>
-                    </div>
+                        <button id="send-message-btn" type="submit" class="btn btn-outline-secondary custom-btn">
+                            <b>SEND</b>
+                        </button>
+                        <div class="contact-form-disclaimer">
+                            <i>* Information entered on this page will not be used to send unsolicited emails nor will be sold to third-parties.</i>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -431,7 +434,9 @@
         <script src="./vendor/jquery-visible/js/jquery-visible-min.js"></script>
         <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="./vendor/font-awesome/js/font-awesome.js"></script>
+        <script src="./vendor/sweetalert/js/sweetalert.min.js"></script>
         <script src="./js/index.js"></script>
         <script src="./js/gotopbutton.js"></script>
+        <script src="./js/sendmail.js"></script>
     </body>
 </html>
