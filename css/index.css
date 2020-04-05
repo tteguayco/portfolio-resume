@@ -210,37 +210,6 @@ i.fab {
   margin-bottom: 20px;
 }
 
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  color: white;
-  height: 10px;
-}
-
-.skill-90 {
-    width: 90%;
-    background-color: #003791;
-}
-
-.skill-80 {
-    width: 80%;
-    background-color: #003791;
-}
-
-.skill-75 {
-    width: 75%;
-    background-color: #003791;
-}
-
-.skill-65 {
-    width: 65%;
-    background-color: #003791;
-}
-.skill-60 {
-    width: 60%;
-    background-color: #003791;
-}
-
 .certification-container {
     text-align: center;
 }
@@ -254,7 +223,7 @@ i.fab {
 }
 
 .skills-col {
-    margin-left: 30px;
+    padding-right: 50px;
 }
 
 .language-mark-filled {

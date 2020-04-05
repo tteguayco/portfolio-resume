@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/gif" href="./img/favicon.ico"/>
         <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/progress-bar.css">
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./css/gotopbutton.css">
         <title>Teguayco Gutiérrez Website</title>
@@ -177,14 +178,14 @@
                         </div>
                     </div>
                     <div class="row skill-row">
-                        <div class="col-12 col-md-5 skills-col">
+                        <div class="col-12 col-md-6 skills-col">
                             <div class="row subtitle-mini">
                                 <div>SQL</div>
                                 <div class="ml-auto">90%</div>
                             </div>
                             <div class="row">
                                 <div class="skill-container">
-                                    <div class="skills skill-90"></div>
+                                    <div id="sql-skill-bar" class="skills"></div>
                                 </div>
                             </div>
                             <div class="row subtitle-mini">
@@ -193,7 +194,7 @@
                             </div>
                             <div class="row">
                                 <div class="skill-container">
-                                    <div class="skills skill-80"></div>
+                                    <div id="python-skill-bar" class="skills"></div>
                                 </div>
                             </div>
                             <div class="row subtitle-mini">
@@ -202,7 +203,7 @@
                             </div>
                             <div class="row">
                                 <div class="skill-container">
-                                    <div class="skills skill-80"></div>
+                                    <div id="c-sharp-skill-bar" class="skills"></div>
                                 </div>
                             </div>
                             <div class="row subtitle-mini">
@@ -211,18 +212,18 @@
                             </div>
                             <div class="row">
                                 <div class="skill-container">
-                                    <div class="skills skill-75"></div>
+                                    <div id="js-skill-bar" class="skills"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-5 skills-col">
+                        <div class="col-12 col-md-6 skills-col">
                             <div class="row subtitle-mini">
                                 <div>HTML5</div>
                                 <div class="ml-auto">80%</div>
                             </div>
                             <div class="row">
                                 <div class="skill-container">
-                                    <div class="skills skill-80"></div>
+                                    <div id="html5-skill-bar" class="skills"></div>
                                 </div>
                             </div>
                             <div class="row subtitle-mini">
@@ -231,7 +232,7 @@
                             </div>
                             <div class="row">
                                 <div class="skill-container">
-                                    <div class="skills skill-75"></div>
+                                    <div id="css-skill-bar" class="skills"></div>
                                 </div>
                             </div>
                             <div class="row subtitle-mini">
@@ -240,7 +241,7 @@
                             </div>
                             <div class="row">
                                 <div class="skill-container">
-                                    <div class="skills skill-80"></div>
+                                    <div id="git-skill-bar" class="skills"></div>
                                 </div>
                             </div>
                             <div class="row subtitle-mini">
@@ -249,7 +250,7 @@
                             </div>
                             <div class="row">
                                 <div class="skill-container">
-                                    <div class="skills skill-60"></div>
+                                    <div id="scrapy-skill-bar" class="skills"></div>
                                 </div>
                             </div>
                         </div>
@@ -422,11 +423,12 @@
 
         <footer class="page-footer font-small blue">
             <div class="footer-copyright text-center py-3">
-                Teguayco Gutiérrez González © 2020 Copyright
+                Made by Teguayco Gutiérrez González © 2020 Copyright
             </div>
         </footer>
 
         <script src="./vendor/jquery/js/jquery-3.4.1.min.js"></script>
+        <script src="./vendor/jquery-visible/js/jquery-visible-min.js"></script>
         <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="./vendor/font-awesome/js/font-awesome.js"></script>
         <script src="./js/index.js"></script>
