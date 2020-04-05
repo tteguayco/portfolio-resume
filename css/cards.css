@@ -42,7 +42,7 @@
 }
 
 .card-text {
-  height:100px;
+  height: 160px;
 }
 
 .card::before, .card::after {
