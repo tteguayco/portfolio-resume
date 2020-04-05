@@ -10,3 +10,12 @@ Sections:
 * Recommendations
 * Posts on blogs or other sites
 * Contact me
+
+Built with
+
+* jQuery
+* Bootstrap 4
+* Bootstrap cards by Nihar Bheemanathi
+* frormsspree.io
+* sweetalert
+* font-awesome
