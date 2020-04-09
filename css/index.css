@@ -331,3 +331,9 @@ textarea:focus {
 .portfolio-active-section {
     color: #003791;
 }
+
+.portfolio-best-section-icon {
+    color: #ffa710;
+    width: 10px;
+    font-size: 14px;
+}
