@@ -314,3 +314,20 @@ textarea:focus {
     color: white;
     font-size: 12px;
 }
+
+.portfolio-section-btn {
+    color: #949191;
+    font-family: Roboto Mono, monospace;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 35px;
+}
+
+.portfolio-section-btn:hover {
+    color: #003791;
+    text-decoration: none;
+}
+
+.portfolio-active-section {
+    color: #003791;
+}
