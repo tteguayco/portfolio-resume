@@ -246,6 +246,7 @@ i.fab {
 .contact-container {
     background-image: linear-gradient(to right, #041433, grey);
     width: 100%;
+    margin-top: 60px;
     padding-bottom: 100px;
 }
 
