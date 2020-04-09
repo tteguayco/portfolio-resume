@@ -338,3 +338,7 @@ textarea:focus {
     width: 10px;
     font-size: 14px;
 }
+
+.certifications-row {
+    margin-bottom: 20px;
+}
