@@ -19,3 +19,11 @@
 .pagination__dot--active {
 
 }
+
+.portfolio-section {
+    display: none;
+}
+
+.portfolio-section-enabled {
+    display: inline-flex;
+}

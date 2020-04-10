@@ -322,6 +322,7 @@ textarea:focus {
     font-size: 20px;
     margin-bottom: 20px;
     margin-right: 35px;
+    cursor: pointer;
 }
 
 .portfolio-section-btn:hover {
