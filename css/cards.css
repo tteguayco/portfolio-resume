@@ -9,6 +9,7 @@
   cursor:pointer;
   padding: 20px;
   margin-bottom: 20px;
+  height: 490px;
 }
 
 .card-title {
@@ -42,7 +43,8 @@
 }
 
 .card-text {
-  height: 180px;
+  /*height: 180px;*/
+  padding-bottom: 20px;
 }
 
 .card::before, .card::after {
