@@ -341,12 +341,12 @@
                         <span href="" class="portfolio-section-btn portfolio-active-section" value="portfolio-best-section">BEST</span>
                         <span class="portfolio-section-btn" value="portfolio-web-scraping-section">WEB SCRAPING</span>
                         <span class="portfolio-section-btn" value="portfolio-machine-learning-section">MACHINE LEARNING</span>
-                        <span class="portfolio-section-btn">DATAVIZ</span>
-                        <span class="portfolio-section-btn">DESKTOP</span>
-                        <span class="portfolio-section-btn">WEB</span>
-                        <!--<span href="#" class="portfolio-section-btn">MOBILE</span>-->
-                        <span class="portfolio-section-btn">GAMES</span>
-                        <span class="portfolio-section-btn">OTHERS</span>
+                        <span class="portfolio-section-btn" value="portfolio-dataviz-section">DATAVIZ</span>
+                        <span class="portfolio-section-btn" value="portfolio-desktop-section">DESKTOP</span>
+                        <span class="portfolio-section-btn" value="portfolio-web-section">WEB</span>
+                        <!--<span href="#" class="portfolio-section-btn" value="portfolio-mobile-section">MOBILE</span>-->
+                        <span class="portfolio-section-btn" value="portfolio-games-section">GAMES</span>
+                        <span class="portfolio-section-btn" value="portfolio-algorithms-section">ALGORITHMS</span>
                     </div>
                     <div class="row">
                         <div class="container mt-2">
@@ -355,7 +355,7 @@
                                     <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
                                         <div class="card card-block">
                                             <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
-                                            <img class="card-img" src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset" />
+                                            <img class="card-img" src="./img/realestate.jpg" alt="Photo of sunset" />
                                             <h6 class="card-title mt-3 mb-3">Real Estate Datahub</h6>
                                             <p class="card-text">Me and a friend from college got together and built something amazing: a web platform that gathers and analyzes real estate ads from Spanish portals.</p>
                                             <ul class="tags">
@@ -368,7 +368,7 @@
                                     <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
                                         <div class="card card-block">
                                             <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
-                                            <img class="card-img" src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset" />
+                                            <img class="card-img" src="./img/java.svg" alt="Photo of sunset" />
                                             <h6 class="card-title mt-3 mb-3">JITRAX</h6>
                                             <p class="card-text">This desktop application made with Java was my end-of-degree work in La Laguna University. It is a tool that helps students learn Relational Algebra. Besides, I won a <a href="">contest</a> with it!</p>
                                             <ul class="tags">
@@ -382,13 +382,14 @@
                                             <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
                                             <img class="card-img" src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset" />
                                             <h6 class="card-title mt-3 mb-3">Relearn</h6>
-                                            <p class="card-text">JITRAX's web version. I had to reuse the already-made Relational Algebra interpreter to allow users get it easier via web, so I needed a Java web framework. Java Spring? Please. Java Spark did the trick.</p>
+                                            <p class="card-text">JITRAX's web version. I had to reuse the already existing Relational Algebra interpreter to allow users get it easier via web, so I needed a Java web framework. Java Spring? Please. Java Spark did the trick.</p>
                                             <ul class="tags">
                                                 <li><a href="http://sparkjava.com/" class="tag" target="_blank">Java Spark</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
+                                <!--
                                 <div class="row">
                                     <div class="pagination">
                                         <div data-tooltip="Tooltip 1" class="pagination__dot pagination__dot--active"></div>
@@ -398,6 +399,7 @@
                                         <div data-tooltip="Tooltip 5" class="pagination__dot"></div>
                                     </div>
                                 </div>
+                                -->
                             </div>
                             <div id="portfolio-web-scraping-section" class="row justify-content-center portfolio-section">
                                 <div class="row justify-content-center">
@@ -413,6 +415,17 @@
                                             </ul>
                                         </div>
                                     </div>
+                                    <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="card card-block">
+                                            <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
+                                            <img class="card-img" src="./img/exam.jpg" alt="Photo of sunset" />
+                                            <h6 class="card-title mt-3 mb-3">Scraping of exam questions</h6>
+                                            <p class="card-text">While studying for my Power BI certification, a lot of sites on the Internet offering questions had limitations on the amount of questions to consume at the same time; so I decided to scrape and have them all available whenever I wanted.</p>
+                                            <ul class="tags">
+                                                <li><a href="https://scrapy.org/" class="tag" target="_blank">Scrapy</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div id="portfolio-machine-learning-section" class="row justify-content-center portfolio-section">
@@ -420,13 +433,120 @@
                                     <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
                                         <div class="card card-block">
                                             <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
-                                            <img class="card-img" src="./img/los_rodeos.jpg" alt="Photo of sunset" />
-                                            <h6 class="card-title mt-3 mb-3">API for smartphone product matching</h6>
-                                            <p class="card-text">From a dataset with more than 300k matched smartphones, I trained several machine learning models that could matches with a high accuracy. These models are ready to be consumed via an API I later deployed with Flask.</p>
+                                            <img class="card-img" src="./img/smartphone.jpg" alt="Photo of sunset" />
+                                            <h6 class="card-title mt-3 mb-3">Smartphone matching</h6>
+                                            <p class="card-text">From a dataset with more than 300k matched smartphones, I trained several machine learning models that could predict matches with a high accuracy. These models are ready to be consumed via an API I later deployed with Flask.</p>
                                             <ul class="tags">
                                                 <li><a href="https://www.python.org/" class="tag" target="_blank">Python</a></li>
                                                 <li><a href="https://www.crummy.com/software/BeautifulSoup/" class="tag" target="_blank">Flask</a></li>
                                                 <li><a href="https://www.crummy.com/software/BeautifulSoup/" class="tag" target="_blank">Sklearn</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="card card-block">
+                                            <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
+                                            <img class="card-img" src="./img/delivery.jpg" alt="Photo of sunset" />
+                                            <h6 class="card-title mt-3 mb-3">Delivery times classifier</h6>
+                                            <p class="card-text">Crawling different e-commerce websites involves collecting very heterogeneous product data such as delivery times. This API classifies delivery time texts into 8 classes so that this information becomes more even for later analysis.</p>
+                                            <ul class="tags">
+                                                <li><a href="https://www.crummy.com/software/BeautifulSoup/" class="tag" target="_blank">Flask</a></li>
+                                                <li><a href="https://www.crummy.com/software/BeautifulSoup/" class="tag" target="_blank">Sklearn</a></li>
+                                                <li><a href="https://es.reactjs.org/" class="tag" target="_blank">React.js</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="portfolio-desktop-section" class="row justify-content-center portfolio-section">
+                                <div class="row justify-content-center">
+                                    <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="card card-block">
+                                            <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
+                                            <img class="card-img" src="./img/cells.jpg" alt="Photo of sunset" />
+                                            <h6 class="card-title mt-3 mb-3">Game of Life</h6>
+                                            <p class="card-text">This simulator shows how cells evolve according to the cellular automaton called "Game of Life", created by the British mathematician John Horton Conway in 1970.</p>
+                                            <ul class="tags">
+                                                <li><a href="https://java.com/en/download/faq/whatis_java.xml" class="tag" target="_blank">Java</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="card card-block">
+                                            <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
+                                            <img class="card-img" src="./img/chess.jpg" alt="Photo of sunset" />
+                                            <h6 class="card-title mt-3 mb-3">N Queens</h6>
+                                            <p class="card-text">The N-Queens problem is a generalization of the original 8-Queens problem. For a given N, the queens must be placed on a chess board so that any queen is threaten by any other.</p>
+                                            <ul class="tags">
+                                                <li><a href="https://java.com/en/download/faq/whatis_java.xml" class="tag" target="_blank">Java</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="portfolio-web-section" class="row justify-content-center portfolio-section">
+                                <div class="row justify-content-center">
+                                    <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="card card-block">
+                                            <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
+                                            <img class="card-img" src="./img/retro.jpg" alt="Photo of sunset" />
+                                            <h6 class="card-title mt-3 mb-3">wedewdwdwd</h6>
+                                            <p class="card-text">Coming soon</p>
+                                            <ul class="tags">
+                                                <li><a href="https://isocpp.org/" class="tag" target="_blank">HTML5</a></li>
+                                                <li><a href="https://isocpp.org/" class="tag" target="_blank">jQuery</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="portfolio-games-section" class="row justify-content-center portfolio-section">
+                                <div class="row justify-content-center">
+                                    <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="card card-block">
+                                            <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
+                                            <img class="card-img" src="./img/retro.jpg" alt="Photo of sunset" />
+                                            <h6 class="card-title mt-3 mb-3">Rogue</h6>
+                                            <p class="card-text">This game is a text-based version of the <a href="https://en.wikipedia.org/wiki/Rogue_(video_game)">classic</a> dungeon crawling video game created by Michael Toy and Glenn Wichman launched in 1980.</p>
+                                            <ul class="tags">
+                                                <li><a href="https://isocpp.org/" class="tag" target="_blank">C++</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="portfolio-algorithms-section" class="row justify-content-center portfolio-section">
+                                <div class="row justify-content-center">
+                                    <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="card card-block">
+                                            <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
+                                            <img class="card-img" src="./img/romans.jpg" alt="Photo of sunset" />
+                                            <h6 class="card-title mt-3 mb-3">Divide and Conquer Framework</h6>
+                                            <p class="card-text">Implementation of several "Divide and Conquer" algorithms using the framework proposed by H. Conrad Cunningham, Yi Liu and Cuihua Zhang in their work "Using the Divide and Conquer Strategy to Teach Java Framework Design" (2004).</p>
+                                            <ul class="tags">
+                                                <li><a href="https://java.com/en/download/faq/whatis_java.xml" class="tag" target="_blank">Java</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="card card-block">
+                                            <h7 class="card-title text-right"><i class="fab fa-github fa-lg"></i></h7>
+                                            <img class="card-img" src="./img/prunning.jpg" alt="Photo of sunset" />
+                                            <h6 class="card-title mt-3 mb-3">Assignment and knapsack problems with Branch & Bound</h6>
+                                            <p class="card-text">The <a href="https://en.wikipedia.org/wiki/Assignment_problem"> assignment</a> and <a href="https://en.wikipedia.org/wiki/Knapsack_problem">knapsack</a> problems are solved using a Branch and Bound approach and the programming language Java.</p>
+                                            <ul class="tags">
+                                                <li><a href="https://java.com/en/download/faq/whatis_java.xml" class="tag" target="_blank">Java</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
+                                        <div class="card card-block">
+                                            <h7 class="card-title text-right"><a href="https://github.com/tteguayco/NFA-CPP" target="_blank"><i class="fab fa-github fa-lg"></i></a></h7>
+                                            <img class="card-img" src="./img/simulator.jpg" alt="Photo of sunset" />
+                                            <h6 class="card-title mt-3 mb-3">NFA</h6>
+                                            <p class="card-text">A nondeterministic finite automaton simulator written in C++.</p>
+                                            <ul class="tags">
+                                                <li><a href="https://isocpp.org/" class="tag" target="_blank">C++</a></li>
                                             </ul>
                                         </div>
                                     </div>

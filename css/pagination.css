@@ -25,5 +25,5 @@
 }
 
 .portfolio-section-enabled {
-    display: inline-flex;
+    display: flex;
 }
