@@ -343,3 +343,9 @@ textarea:focus {
 .certifications-row {
     margin-bottom: 20px;
 }
+
+.tags {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+}
