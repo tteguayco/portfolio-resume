@@ -256,7 +256,7 @@ i.fab {
 
 input[type="text"], input[type="email"] {
     background: transparent;
-    color: white;
+    border: white 1px solid;
 }
 
 input[type="text"]:focus, input[type="email"]:focus {
@@ -273,6 +273,7 @@ textarea {
     color: white;
     padding: 10px;
     resize: both;
+    border: white 1px solid;
 }
 
 textarea:focus {
