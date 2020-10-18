@@ -1,4 +1,6 @@
 
+const AUTHOR_BIRTHDAY = '05/12/1995';   // MM/DD/YYYY
+
 function setSkillProgressBars() {
 
     if ($('.skill-row').visible(true)) {
@@ -18,6 +20,21 @@ function listenToSkillBarsFill() {
     $(window).on('load', function() { setSkillProgressBars(); });
 }
 
+function setCopyrightYear() {
+    var year = new Date().getFullYear();
+    $('#copyright-year').text(year);
+}
+
+function setAuthorAge() {
+    var birthday = new Date(AUTHOR_BIRTHDAY);
+    var ageMs = Date.now() - birthday.getTime();
+    var ageDate = new Date(ageMs);
+    var age = Math.abs(ageDate.getUTCFullYear() - 1970);
+    $('#author-age').text(age);
+}
+
 $(document).ready(function() {
     listenToSkillBarsFill();
+    setCopyrightYear();
+    setAuthorAge();
 });
