@@ -13,7 +13,7 @@
   cursor: ;
   padding: 20px;
   margin-bottom: 20px;
-  height: 490px;
+  height: 400px;
 }
 
 .card-horizontal {
@@ -53,6 +53,7 @@
 .card-text {
   /*height: 180px;*/
   padding-bottom: 20px;
+  font-family: system-ui;
 }
 
 .card::before, .card::after {
